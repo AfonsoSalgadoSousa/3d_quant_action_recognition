@@ -30,7 +30,7 @@ python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_js
 ```
 
 ## Running the code
-The primary function of the code is available from the [main file](https://github.com/AfonsoSalgadoSousa/3d_quant_action_recognition/main.py). Use the following command:
+The primary function of the code is available from the [main file](https://github.com/AfonsoSalgadoSousa/3d_quant_action_recognition/blob/main/main.py). Use the following command:
 ```bash
 python main.py --mode <option>
 ```
@@ -43,7 +43,7 @@ The available modes are:
 Please follow the command with *--help* to check a detailed description of every available parameter.
 
 ### Execution Examples
-Example for every usecase can be found in the [script folder](https://github.com/AfonsoSalgadoSousa/3d_quant_action_recognition/scripts).
+Example for every usecase can be found in the [script folder](https://github.com/AfonsoSalgadoSousa/3d_quant_action_recognition/tree/main/scripts).
 
 ## Acknowledgement
 The code was built on top of the works from [Hara et al.](https://github.com/kenshohara/3D-ResNets-PyTorch) and [Kopuklu et al.](https://github.com/okankop/Efficient-3DCNNs).
