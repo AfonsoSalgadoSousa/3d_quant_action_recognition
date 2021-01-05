@@ -19,14 +19,14 @@ PyTorch implementation of uniform quantization on 3D CNN architectures for actio
 * Convert from avi to jpg files using ```util_scripts/generate_video_jpgs.py```
 
 ```bash
-python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path ucf101
+python -m scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path ucf101
 ```
 
 * Generate annotation file in json format similar to ActivityNet using ```util_scripts/ucf101_json.py```
   * ```annotation_dir_path``` includes classInd.txt, trainlist0{1, 2, 3}.txt, testlist0{1, 2, 3}.txt
 
 ```bash
-python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
+python -m scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
 ```
 
 ## Running the code
